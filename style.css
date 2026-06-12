@@ -49,7 +49,7 @@ header h1{
     font-weight: 700;
 }
 header span{
-    color: #6c5ce7;
+    color: #6c5ce7
 }
 header ul{
     display: flex;
@@ -190,7 +190,7 @@ footer ul{
     gap: 20px;
     padding: 10px;
 }
-footer .social{
+footer a{
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -199,19 +199,22 @@ footer .social{
     color: #6c5ce7;
     border: 1.5px solid #6c5ce7;
     border-radius: 10px;
- /*   display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
     transition: 0.5s;
-    fill: currentColor;
 }
-/*footer .social{
+footer svg{
     width: 30px;
     height: 30px;
-    color: #6c5ce7;
     fill: currentColor;
-}*/
-footer .social:hover{
+}
+footer .social_f{
+    width: 25px;
+    height: 25px;
+    fill: currentColor;
+}
+footer a:hover{
     background: #6c5ce7;
     color: #0d0d12;
     box-shadow: 0px 0px 15px 1px #6c5ce7aa;
